@@ -15,19 +15,6 @@
         "ext-curl": "*",
         "vanstokes/sdk-core-php":"3.*"
     },
-    "repositories": [
-     {
-      "type": "package",
-      "package": {
-        "name": "vanstokes/sdk-core-php",
-        "version": "3.0",
-        "source": {
-          "url": "https://github.com/vanstokes/sdk-core-php.git",
-          "type": "git",
-          "reference": "main"
-        }
-      }
-    },
     "autoload": {
         "psr-0": {
             "PayPal\\Service": "lib/",
